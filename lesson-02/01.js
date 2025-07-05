@@ -17,9 +17,9 @@ const hasTemporaryPass = false
 let isAccess
 
   if (isAdmin === true || isVerifiedUser === true && hasSpecialPermission === true || hasTemporaryPass === true) {
-    alert('yua are have access')
+    console.log('yua are have access')
 } else {
-  alert("you don't have access")
+  console.log("you don't have access")
 }
 
 // your code
