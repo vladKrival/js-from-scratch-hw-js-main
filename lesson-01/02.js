@@ -13,4 +13,4 @@ let number = 10;
 while(number) {
   factorial *= number--;
 }
-console.log('factorial of 10 = ' + factorial);
+console.log(factorial);

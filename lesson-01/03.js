@@ -15,4 +15,4 @@ while(number <= 20) {
   }
   number++;
 }
-console.log('summa нечетных до 20 = ' + sum);
+console.log(sum);
