@@ -15,4 +15,16 @@
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-function findUniqueElements() {}
+let speed = [1, 2, 3, 1, 4, 6, 9, 6]
+
+function findUniqueElements(array) {
+  const score = [];
+  for(let i = 0; i < array.length; i++){
+    if(!includesElement(score, array[i])){
+    score.push(array[i]);
+    }
+  }
+return score
+}
+
+console.log(findUniqueElements(speed))
