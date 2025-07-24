@@ -24,4 +24,4 @@ for (let i = 0; i < array.length; i++){
   return false
 }
 
-console.log(includesElement(soul, 10));
+console.log(includesElement(soul, 2));
