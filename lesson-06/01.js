@@ -38,7 +38,7 @@ const filter = (array, callback) => {
 
 
 const oddNumbers = filter(numbers, (element, index) => {
-  return element % 2 === 0;
+  return element % 2 !== 0;
 });
 
 console.log(oddNumbers);
