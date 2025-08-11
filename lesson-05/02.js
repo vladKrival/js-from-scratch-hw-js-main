@@ -36,7 +36,7 @@ const gallery = {
 }
 
 function updateGallery(obj, art, newValue) {
-  gallery[art] = newValue;
+  obj[art] = newValue;
 }
 
 updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
